@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'THDevTools_Example' do
+  pod 'THDevTools', :path => '../'
+
+  target 'THDevTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
